@@ -137,8 +137,8 @@ def ping(host, timeout=1):
               f' Perdidos = {cont_losses} ({porc}% de perdas)')
     print()
     print(f'Aproximar um numero redondo de vezes em milissegundos')
-    print(f'    Mínimo: {round(packetmin*1000, 2)} ms, Máximo: {round(packetmax*1000, 2)}'
-            f'ms, Média: {round(packetavg*1000, 2)}ms')
+    print(f'    Mínimo: {round(packetmin, 2)} ms, Máximo: {round(packetmax, 2)}'
+            f'ms, Média: {round(packetavg, 2)}ms')
     return vars
 
 
